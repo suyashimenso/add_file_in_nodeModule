@@ -1,0 +1,11 @@
+diff --git a/node_modules/function-bind/test/abc.js b/node_modules/function-bind/test/abc.js
+new file mode 100644
+index 0000000..c3a17ab
+--- /dev/null
++++ b/node_modules/function-bind/test/abc.js
+@@ -0,0 +1,4 @@
++const sum=(a,b)=>{
++    return(a+b);
++    }
++    export default sum;
+\ No newline at end of file
