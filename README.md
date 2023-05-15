@@ -20,7 +20,7 @@ The application will then be available at `http://localhost:3000/`.
 
 ## How it Works
 
-First, add the file in the node modules folder wherever you want. For example, suppose I have a file named `myFile.js` and I have added it at this path `node_modules/function-bind/test/myFile.js`
+First, add the file in the `node_modules` folder wherever you want. For example, suppose I have a file named `myFile.js` and I have added it at this path `node_modules/function-bind/test/myFile.js`
 
 Then you need to install the `patch-package` package as a dev dependency by running the following command:
 
@@ -36,7 +36,7 @@ Then you need to open the `package.json` file and under the scripts remove the s
 }
 ```
 
-That's it now run your application once and then you can delete the node_modules folder. After that whenever you'll re-install the node_modules folder, your files will also be installed automatically and you do not need to add them again and again manually.
+That's it now run your application once and then you can delete the `node_modules` folder. After that whenever you'll re-install the `node_modules` folder, your files will also be installed automatically and you do not need to add them again and again manually.
 
 ## Conclusion
 
