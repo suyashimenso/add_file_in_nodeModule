@@ -36,13 +36,7 @@ Then you need to open the `package.json` file and under the scripts remove the s
 }
 ```
 
-That's it now run your application once and then you can delete the node_modules folder. After that you can re-install it using the following command:
-
-```
-npm install
-```
-
-When you will re-install the node-modules folder then you will see that the file that you added previously was already installed along with the node_modules folder.
+That's it now run your application once and then you can delete the node_modules folder. After that whenever you'll re-install the node_modules folder,your files will also be installed automatically and you do not need to add them again and again manually.
 
 ## Conclusion
 
