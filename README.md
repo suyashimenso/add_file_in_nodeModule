@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Add_file_in_nodeModule
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that demonstrates how to add files in node modules folder in a React project.
 
 ## Available Scripts
 
