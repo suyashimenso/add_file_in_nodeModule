@@ -20,13 +20,15 @@ The application will then be available at `http://localhost:3000/`.
 
 ## How it Works
 
-First, add the file in the `node_modules` folder wherever you want. For example, suppose I have a file named `myFile.js` and I have added it at this path `node_modules/function-bind/test/myFile.js`
+First, add the file in the `node_modules` folder wherever you want. For example, suppose I have a file named `myFile.js` and I have added it at this path `node_modules/function-bind/test/myFile.js`.
 
 Then you need to install the `patch-package` package as a dev dependency by running the following command:
 
 ```
 npm install --save-dev patch-package
 ```
+
+Next you need to create a patch file for the package you want to patch. To do this, create a new folder called `patches` in the root of your project and then create a patch file inside it with the name `<packagename>+version.patch`. For example, if you want to patch the `react-dom` version `16.14.0`, you would create a file named `patches/react-dom+16.14.0.patch` 
 
 Then you need to open the `package.json` file and under the scripts remove the start attribute and replace it with the following code:
 
