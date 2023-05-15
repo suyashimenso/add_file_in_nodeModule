@@ -36,7 +36,7 @@ Then you need to open the `package.json` file and under the scripts remove the s
 }
 ```
 
-That's it now run your appication once and then you can delete the node_modules folder. After that you can re-install it using the following command:
+That's it now run your application once and then you can delete the node_modules folder. After that you can re-install it using the following command:
 
 ```
 npm install
