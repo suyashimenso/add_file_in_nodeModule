@@ -20,7 +20,7 @@ The application will then be available at `http://localhost:3000/`.
 
 ## How it Works
 
-First, add the file in the node modules folder wherever you want.
+First, add the file in the node modules folder wherever you want. For example, suppose I have a file named `myFile.js` and I have added it at this path `node_modules/function-bind/test/myFile.js`
 
 Then you need to install the `patch-package` package as a dev dependency by runnning the following command:
 
